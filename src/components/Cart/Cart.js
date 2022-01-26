@@ -12,7 +12,7 @@ const Cart = (props) => {
       <h2>Your Shopping Cart</h2>
       <ul>
       {cartItems.map((item) => (
-          <CartItem
+          <CartItem  // data from redux
               item={{
               id: item.id,
               title: item.name,
