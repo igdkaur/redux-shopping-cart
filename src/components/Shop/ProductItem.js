@@ -29,7 +29,7 @@ const ProductItem = (props) => {
         </div>
       </Card>
     </li>
-  );
+  );  
 };
 
 export default ProductItem;

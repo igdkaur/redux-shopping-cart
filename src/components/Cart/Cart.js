@@ -13,6 +13,7 @@ const Cart = (props) => {
       <ul>
       {cartItems.map((item) => (
           <CartItem  // data from redux
+              key = {item.id}
               item={{
               id: item.id,
               title: item.name,
